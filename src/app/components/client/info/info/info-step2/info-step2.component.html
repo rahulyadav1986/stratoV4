@@ -1,0 +1,18 @@
+<div class="login-info-step2">
+    <div class="login-info-step2-wraper">
+        <app-side-panel></app-side-panel>
+        <div class="login-info-step2-content">
+            <div class="content-img"> 
+                <img src="assets/images/back4.png" alt="">
+            </div>
+            <div class="content-text">
+                <p>All files are Encrypted<br>and stored on Multiple Peer to Peer hosts</p>
+            </div>
+            <div class="custom_button"><a routerLink="/info-step3" >Next page</a></div>    
+            <div class="custom-hambar" (click)="add()">
+                <img class="barImg1" [class.hamClose]="check" src="assets/images/menu.png" alt="">
+                <img class="barImg2" [class.hamOpen]="check" src="assets/images/cancel.png" alt="">
+            </div>        
+        </div>
+    </div>
+</div>
